@@ -1,8 +1,20 @@
-# node-js-getting-started
+# Postal Rate Calculator
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+A Node.js app using [Express 4](http://expressjs.com/) and [deployed](https://postalratecalculator.herokuapp.com) to [Heroku](http://www.heroku.com).
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+This application uses Node.js and Express to create a web application that determines the postage required for a single piece of retail first-class mail. It has a form that allows a user to specify 1) the weight of the item and then 2) select one of the following types of mail:
+
+- Letters (Stamped)
+
+- Letters (Metered)
+
+- Large Envelopes (Flats)
+
+- Parcels
+
+After submitting the form, the user is taken to a page that displays the information they submitted along with the resulting price.
+
+The rates can be found on this page from the [USPS](https://pe.usps.com/text/dmm300/Notice123.htm#_c096).
 
 ## Running Locally
 
@@ -17,16 +29,7 @@ $ npm start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Documentation
 
