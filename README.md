@@ -3,13 +3,9 @@
 A Node.js app using [Express](http://expressjs.com/) and [deployed](https://postalratecalculator.herokuapp.com) to [Heroku](http://www.heroku.com).
 
 This application uses Node.js and Express to create a web application that determines the postage required for a single piece of retail first-class mail. It has a form that allows a user to specify 1) the weight of the item and then 2) select one of the following types of mail:
-
 - Letters (Stamped)
-
 - Letters (Metered)
-
 - Large Envelopes (Flats)
-
 - Parcels
 
 After submitting the form, the user is taken to a page that displays the information they submitted along with the resulting price.
